@@ -1,25 +1,24 @@
-.deletePage{
-    
-    text-align: center;
-    padding-top: 7rem;
-    
+
   h1{
     color:hsl(197, 8%, 50%);
     font-size: 7rem;
   }
-  button{
+  button:nth-child(2){
     background-color: rgb(247, 149, 149);
     padding: 0.5rem 1rem;
     border:2px solid red;
     color: red;
-    flex:1;
+    
   }
   button:nth-child(1){
     background-color: rgb(146, 252, 161);
     padding: 0.5rem 1rem;
     border:2px solid #4CAF50;
     color: #4CAF50;
-    flex:1;
+    
+  }
+  button{
+    text-align: center;
   }
   h2{
     color:hsl(197, 8%, 50%);
@@ -31,5 +30,8 @@
     color:hsl(197, 8%, 50%);
     font-size:16px;
     border: none;
+    text-align: center;
   }
+header{
+  text-align: center;
 }

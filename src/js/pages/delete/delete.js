@@ -52,7 +52,7 @@ const deletePage = function(props){
     }
     
     let headerTemplate = `
-        <header class="${styles.deletePage}">
+        <header class="deletepage">
             <h1>Zachary Fedorak Todo List</h1>
             <h2>Don't Be Late!</h2>
             <p>Delete a todo or cancel to go back to todo list.</p> 
