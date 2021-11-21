@@ -1,0 +1,48 @@
+[{
+  "id":"aK6asvkyoa",
+  "category":"Cleaning",
+  "title":"Doing laundry",
+  "isComplete": true,
+  "startDate":"Wednesday November 3rd",
+  "startTime":"1:00pm",
+  "endDate":"Wednesday November 3rd",
+  "endTime":"4:30pm"
+
+}, {
+  "id":"08gefrjbew",
+  "category":"Shopping",
+  "title":"Buying groceries",
+  "isComplete": false,
+  "startDate":"Wednesday November 3rd",
+  "startTime":"3:30pm",
+  "endDate":"Wednesday November 3rd",
+  "endTime":"4:15pm"
+}, {
+  "id": "h36ifsodub",
+  "category":"Work",
+  "title":"Complete Project",
+  "isComplete": false,
+  "startDate":"Wednesday November 3rd",
+  "startTime":"8:00am",
+  "endDate":"Wednesday November 3rd",
+  "endTime":"12:00pm"
+}, {
+  "id":"3hm1nmzccx",
+  "category":"Cooking",
+  "title":"Make Dinner",
+  "isComplete": true,
+  "startDate":"Wednesday November 3rd",
+  "startTime":"5:00pm",
+  "endDate":"Wednesday November 3rd",
+  "endTime":"6:30pm"
+}, {
+  "id":"0x0pxvnvjt",
+  "category":"Vehicle",
+  "title":"Get car cleaned",
+  "isComplete": false,
+  "startDate":"Wednesday November 3rd",
+  "startTime":"2:00pm",
+  "endDate":"Wednesday November 3rd",
+  "endTime":"2:30pm"
+}]
+ 

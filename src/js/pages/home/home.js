@@ -1,5 +1,4 @@
 
-import makeElement from "../../utils/makeElement"
 import pageHeader from "../../components/ui/pageheader/"
 import link from "../../components/ui/link/link"
 import * as styles from './styles.module.scss'
@@ -14,9 +13,9 @@ const homePage = function(){
     
    
         page.append(pageHeader({
-            label: "Director",
-            tagline:"keeping your staff contected",
-            children: [link("employee directory", "/directory")]
+            label: "Zachary Fedorak Todo List",
+            tagline:"Don't Be Late!",
+            children: [link("todo list", "/todolist")]
         }))
 
        

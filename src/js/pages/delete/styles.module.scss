@@ -1,8 +1,35 @@
 .deletePage{
-   button{
-       background-color: red;
-   }
-   div{
-       background-color: purple;
-   }
+    
+    text-align: center;
+    padding-top: 7rem;
+    
+  h1{
+    color:hsl(197, 8%, 50%);
+    font-size: 7rem;
+  }
+  button{
+    background-color: rgb(247, 149, 149);
+    padding: 0.5rem 1rem;
+    border:2px solid red;
+    color: red;
+    flex:1;
+  }
+  button:nth-child(1){
+    background-color: rgb(146, 252, 161);
+    padding: 0.5rem 1rem;
+    border:2px solid #4CAF50;
+    color: #4CAF50;
+    flex:1;
+  }
+  h2{
+    color:hsl(197, 8%, 50%);
+    font-size:24px;
+    border: none;
+    padding-bottom: 2rem;
+  }
+  p{
+    color:hsl(197, 8%, 50%);
+    font-size:16px;
+    border: none;
+  }
 }

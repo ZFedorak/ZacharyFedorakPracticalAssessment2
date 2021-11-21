@@ -1,4 +1,3 @@
-
 import makeElement from "~/src/js/utils/makeElement"
 import button from "../../components/ui/button"
 import {Router} from './../../routes/router'
@@ -8,10 +7,10 @@ import * as styles from './styles.module.scss'
  
 
 const cancelButton = button("cancel")
-const deleteButton = button("delete")
+const deleteButton = button("add")
 
  
-const deletePage = function(props){
+const addPage = function(props){
         
 
     const page = document.createElement('div') 
@@ -25,26 +24,13 @@ const deletePage = function(props){
     // Call the cleanUp method
     function onCancelDelete (e){
         cleanUp()
-        Router('/directory')
+        Router('/todolist')
     }
 
     // DELETE EMPLOYEE EVENT HANDLER
     function onRemoveTodo (e){ 
-     
-      
-           if(props !== null){           
-            Router('/directory')
-               const removeTodo = props
-               const index = getStore().findIndex(todo => todo.id === removeTodo.id)
-               const action  = {
-                type:"delete",
-                payload:{index},
-                cb:()=> Router('/directory')
-            }
-            reducer(action)
-            cleanUp()
-           }
-    
+        cleanUp()
+        Router('/todolist')
        
 
        
@@ -55,7 +41,44 @@ const deletePage = function(props){
         <header class="${styles.deletePage}">
             <h1>Zachary Fedorak Todo List</h1>
             <h2>Don't Be Late!</h2>
-            <p>Delete a todo or cancel to go back to todo list.</p> 
+            <h3>Add a Todo</h3>
+            <span class="flex">
+            <span>
+            <label>ID
+            <input type="text"/>
+            </label>
+            </span>
+            <span>
+            <label>Completed
+            <input type="checkbox"/>
+            </label>
+            </span>
+            <span>
+            <label>Category
+            <input type="text"/>
+            </label>
+            </span>
+            <span>
+            <label>To Do
+            <input type="text"/>
+            </label>
+            </span>
+            <span>
+            <label>Start Date
+            <input type="text"/>
+            </label>
+            </span>
+            <span>
+            <label>End Date
+            <input type="text"/>
+            </label>
+            </span>
+            <span>
+            <label>Start Time
+            <input type="text"/>
+            </label>
+            </span>
+            </span>
             <div></div>
         </header>
     `
@@ -72,4 +95,4 @@ const deletePage = function(props){
     
 }
 
-export default deletePage
+export default addPage

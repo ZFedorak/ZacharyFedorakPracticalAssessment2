@@ -1,0 +1,28 @@
+span.flex{
+    text-align: center;
+}
+span{
+    display: flex;
+  flex-direction: column;
+   flex-flow: column wrap;
+}
+input, label{
+    display: block;
+}
+
+input{
+    text-align: center;
+}
+header{
+    h1{
+        padding-top: 7rem;
+        text-align: center;
+        color:hsl(197, 8%, 50%);
+        font-size: 7rem;
+    }
+    h2{
+        text-align: center;
+     color:hsl(197, 8%, 50%);
+     font-size:1.125rem;
+    }
+}

@@ -1,11 +1,15 @@
 import homePage from '../pages/home'
-import employeeDirectory from "../pages/directory";
+import todoListing from "../pages/todolist";
 import deletePage from "../pages/delete/";
+import editPage from '../pages/edit';
+import addPage from '../pages/add';
 import notFound from "../pages/notfound";
 const routes = {
 "/": homePage,
-"/directory":employeeDirectory,
+"/todolist":todoListing,
 "/delete":deletePage,
+"/editPage":editPage,
+"/addPage":addPage,
 "/*":notFound,
 }
 const Router = function (pathname, params=null) {
