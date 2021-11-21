@@ -25,7 +25,7 @@ const deletePage = function(props){
     // Call the cleanUp method
     function onCancelDelete (e){
         cleanUp()
-        Router('/directory')
+        Router('/todolist')
     }
 
     // DELETE EMPLOYEE EVENT HANDLER
@@ -33,13 +33,13 @@ const deletePage = function(props){
      
       
            if(props !== null){           
-            Router('/directory')
+            Router('/todolist')
                const removeTodo = props
                const index = getStore().findIndex(todo => todo.id === removeTodo.id)
                const action  = {
                 type:"delete",
                 payload:{index},
-                cb:()=> Router('/directory')
+                cb:()=> Router('/todolist')
             }
             reducer(action)
             cleanUp()

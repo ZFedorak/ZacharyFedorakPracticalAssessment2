@@ -4,17 +4,17 @@
     font-size: 7rem;
   }
   button:nth-child(2){
-    background-color: rgb(247, 149, 149);
+    background-color: #ffffff;
     padding: 0.5rem 1rem;
-    border:2px solid red;
-    color: red;
+    border:2px solid hsl(197, 8%, 50%);
+    color: hsl(197, 8%, 50%);
     
   }
   button:nth-child(1){
-    background-color: rgb(146, 252, 161);
+    background-color: #ffffff;
     padding: 0.5rem 1rem;
-    border:2px solid #4CAF50;
-    color: #4CAF50;
+    border:2px solid hsl(197, 8%, 50%);
+    color:hsl(197, 8%, 50%) ;
     
   }
   button{
@@ -34,4 +34,10 @@
   }
 header{
   text-align: center;
+}
+label{
+  color: hsl(197, 8%, 50%);
+}
+input{
+  border: 2px solid hsl(197, 8%, 50%);
 }

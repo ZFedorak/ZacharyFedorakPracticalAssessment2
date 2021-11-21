@@ -39,7 +39,7 @@ const addPage = function(props){
     
     let headerTemplate = `
         <header >
-            <h1>Zachary Fedorak Todo List</h1>
+            <h1 >Zachary Fedorak Todo List</h1>
             <h2>Don't Be Late!</h2>
             <h3>Add a Todo</h3>
             <span class="flex">

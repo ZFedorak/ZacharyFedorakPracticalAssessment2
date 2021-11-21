@@ -1,37 +1,37 @@
-span.flex{
-    text-align: center;
-}
 span{
     display: flex;
-  flex-direction: column;
-   flex-flow: column wrap;
-}
-input, label{
-    display: block;
-}
-
-input{
-    text-align: center;
-}
-button{
-    text-align: center;
-}
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+  input, label{
+    display: inline-block;
+  }
+  label{
+      font-size: 24px;
+  }
 header{
     h1{
-        padding-top: 7rem;
-        text-align: center;
-        color:hsl(197, 8%, 50%);
-        font-size: 7rem;
-    }
-    h2{
-        text-align: center;
-     color:hsl(197, 8%, 50%);
-     font-size:1.125rem;
-    }
-    h3{
-        text-align: center;
-        color:hsl(197, 8%, 50%);
-        font-size:45px;
-        padding-top: 2rem;
-    }
+    color:hsl(197, 8%, 50%);
+    font-size: 7rem;
 }
+h2{
+    color:hsl(197, 8%, 50%);
+    font-size:24px;
+    border: none;
+    padding-bottom: 2rem;
+}
+h3{
+    color:hsl(197, 8%, 50%);
+    font-size:36px;
+    border: none;
+    padding-bottom: 2rem;
+}
+a{
+    text-align: center;
+}
+}
+div{
+    background-color: #c5cbe3;
+    height: 1600px;
+}
+

@@ -8,8 +8,10 @@ const todolist = function (){
     <header class="${styles.section_heading}">
         <h1>Zachary Fedorak Todo List</h1>
         <p>Don't Be Late!</p>
-    </header>
         <a class="addtodo" href="/addPage">Add Todo</a>
+    </header>
+
+        
         <div id="todos">
         
         </div>
