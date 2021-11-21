@@ -20,9 +20,9 @@ const todo = function ({ id, category, title, endDate, isComplete}) {
           </ul>
 
           <footer data-key="${id}">
-            <button  class="delete" id="delete" data-key="${id}" >delete</button>
+            <button  id="delete" data-key="${id}" >delete</button>
             <span></span>
-            <button class="${styles.edit}" id="edit" data-key="${id}">edit</button>
+            <button  id="edit" data-key="${id}">edit</button>
           </footer>
         </aside>  
   `;
