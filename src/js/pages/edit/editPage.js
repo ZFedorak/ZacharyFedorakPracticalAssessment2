@@ -35,7 +35,7 @@ const editPage = function(props){
     }
     
     let headerTemplate = `
-        <header class="${styles.deletePage}">
+        <header>
             <h1>Zachary Fedorak Todo List</h1>
             <h2>Don't Be Late!</h2>
             <h3>Edit a Todo</h3>
